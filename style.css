@@ -20,11 +20,11 @@ body {
     align-items: center;
     background-color: #FFFFFF;
 }
-.header__logo {
-    /* position: absolute;
+/* .header__logo {
+    position: absolute;
     left: 30%;
-    transform: translateX(-50%); */
-}
+    transform: translateX(-50%);
+} */
 .header__burger {
     width: 40px;
     height: 40px;
@@ -95,7 +95,8 @@ letter-spacing: -0.6px;
 }
 h2 {
        display: -webkit-box;
-    -webkit-line-clamp:5;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
     -webkit-box-orient: vertical;
     overflow: hidden;
     white-space: normal;
